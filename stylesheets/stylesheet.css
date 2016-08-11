@@ -2,13 +2,13 @@
 Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
 *******************************************************************************/
-
+/*
 @import url(github-light.css);
-
+*/
 /*******************************************************************************
 MeyerWeb Reset
 *******************************************************************************/
-
+/* 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -28,9 +28,9 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+*/
+/* HTML5 display-role reset for older browsers */ /* by default comment */
+/*article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -43,11 +43,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+*/
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
-
+/*
 body {
   box-sizing: border-box;
   color:#373737;
@@ -255,11 +255,11 @@ form {
   background: #f2f2f2;
   padding: 20px;
 }
-
+*/
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
-
+/*
 .outer {
   width: 100%;
 }
@@ -367,14 +367,14 @@ Full-Width Styles
 #footer_wrap {
   background: #212121;
 }
-
+*/
 
 
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
 
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
   body {
     font-size:14px;
   }
@@ -423,3 +423,11 @@ Small Device Styles
   }
 
 }
+*/
+   body { font-size: 15px; }
+   .table th { font-size: 18px; }
+   footer { background-color: #111; color: white; padding: 8px; }
+   h3 { background-color: lightgrey; padding: 10px; border:1px solid green;}
+   h4, footer a { text-decoration: underline; }
+   footer p {font-size: 12px; } 
+   #note { font-size:12px; color: black; background-color: yellow; margin:auto; margin-bottom:5px; max-width:90%;}
