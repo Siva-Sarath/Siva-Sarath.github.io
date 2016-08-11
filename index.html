@@ -1,68 +1,37 @@
 <!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Siva-sarath.GitHub.io : Hosting my personal website on Github.">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Siva-sarath.GitHub.io</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Siva-Sarath">View on GitHub</a>
-
-          <h1 id="project_title">Siva-sarath.GitHub.io</h1>
-          <h2 id="project_tagline">Hosting my personal website on Github.</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>&lt;!DOCTYPE html&gt;
-
-</p>
-  Resume | Siva Sarath
-  
-  
-  
-  
-  
-  
-
-
+<html lang="en">
+<head>
+  <title>Resume | Siva Sarath</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="mystyles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
    body { font-size: 15px; }
    .table th { font-size: 18px; }
    footer { background-color: #111; color: white; padding: 8px; }
    h3 { background-color: lightgrey; padding: 10px; border:1px solid green;}
    h4, footer a { text-decoration: underline; }
-   footer p {font-size: 12px; }
+   footer p {font-size: 12px; } 
    #note { font-size:12px; color: black; background-color: yellow; margin:auto; margin-bottom:5px; max-width:90%;}
+</style>
+</head>
 
-
-<p></p>
-
-<p></p>
-  
-  <div>
-    <div>
-      
-        
-        
-         
-      
-      <a href="#">MyResume</a>
+<body data-spy="scroll" data-target=".navbar">
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">MyResume</a>
     </div>
-    <div id="myNavbar">
-      <ul>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
         <li><a href="#">Home</a></li>
         <li><a href="#home">Educational Qualifications</a></li>
         <li><a href="#eq">Skills</a></li>
@@ -72,36 +41,31 @@
       </ul>
     </div>
   </div>
-  
+ </nav>
 <br>
 <br>
 <br>
-
-<div id="home">
- <div>
-  <div>
-   <ul>
-    <li>
-<b>Name: </b>Siva Sarath</li>
-    <li>B.Tech. Chemical Engineering</li>
-    <li>Under Graduate (2012-2016)</li>
-    <li>
-<b>Registration No:</b> B.Tech./CH/12112042/2016</li>
-    <a href="mailto:sarathchiitr@gmail.com"><b>Email:</b> sarathchiitr@gmail.com</a>
+<div class="container" id="home">
+ <div class="row">
+  <div class="col-sm-6">
+   <ul class="list-group">
+    <li class="list-group-item"><b>Name: </b>Siva Sarath</li>
+    <li class="list-group-item">B.Tech. Chemical Engineering</li>
+    <li class="list-group-item">Under Graduate (2012-2016)</li>
+    <li class="list-group-item"><b>Registration No:</b> B.Tech./CH/12112042/2016</li>
+    <a class="list-group-item list-group-item-info" href="mailto:sarathchiitr@gmail.com"><b>Email:</b> sarathchiitr@gmail.com</a>
    </ul>
   </div>
-  <div></div>
-  <div>
-<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAhwAAAAJDllZTMyMGFjLTRiMDAtNGJlNy05ZTRhLWY2OTg3OTQzODAzMA.jpg" alt="My Photo - Siva Sarath">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-4"><img class="img-responsive img-circle" style="margin: 0 auto" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAhwAAAAJDllZTMyMGFjLTRiMDAtNGJlNy05ZTRhLWY2OTg3OTQzODAzMA.jpg" alt="My Photo - Siva Sarath">
   </div>
  </div>
-  <hr>
+  <hr style="width: 100%; height: 1px; background-color:black;" >
 </div> 
-
-<div> 
+<div class="container"> 
  <p><strong>Area(s) of Interest:</strong> Front-end Web Development </p>
-<div id="eq">
-<table>
+<div class="table-responsive" id="eq">
+<table class="table table-striped table-hover">
   <tr>
     <th>Educational Qualifications</th>
     <th>Year</th>
@@ -128,93 +92,53 @@
   </tr>
  </table>
 </div>
-
-<h3 id="skills">
-<a id="skills" class="anchor" href="#skills" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Skills</h3>
-
-<ul>
-  <li>C++</li>
-  <li>HTML5 &amp; CSS3</li>
-  <li>BootStrap</li>
-  <li>JavaScript</li>
-  <li>DataStructures and Algorithms</li>
+<h3 class="page-header" id="skills">Skills</h3>
+<ul >
+  <li><a data-toggle="tooltip" title="Had course in college || Rating - 3.5/5">C++</a></li>
+  <li><a data-toggle="tooltip" title="Learnt through W3schools || Rating - 3.5/5">HTML5 & CSS3</a></li>
+  <li><a data-toggle="tooltip" title="Learnt through W3schools || Rating - 3/5">BootStrap</a></li>
+  <li><a data-toggle="tooltip" title="Learning through W3schools || Rating - 2.5/5">JavaScript</a></li>
+  <li><a data-toggle="tooltip" title="Took NPTEL course Design and analysis of Algorithms || Rating - 3/5">DataStructures and Algorithms</a></li>
 </ul>
-
-<h3 id="achievements">
-<a id="achievements" class="anchor" href="#achievements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Achievements</h3>
-
-<ul>
+<h3 class="page-header" id="achievements">Achievements</h3>
+<ul >
   <li>AIEEE (2012) AIR 1533 - Out of 1.1 Million Appeared Students.</li>
   <li>IIT JEE (2012) AIR 8832 </li>
   <li>100% Marks in Maths in 10th and 11th.</li>
 </ul>
-
-<p> </p>
-
-<h3>
-<a id="extra-curriculars" class="anchor" href="#extra-curriculars" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Extra Curriculars</h3>
-
-<h4>
-<a id="institute-sports-council-iit-roorkee-13-16" class="anchor" href="#institute-sports-council-iit-roorkee-13-16" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Institute Sports Council IIT Roorkee ('13-'16)</h4>
-
+<section>
+<h3 class="page-header">Extra Curriculars</h3>
+<h4>Institute Sports Council IIT Roorkee ('13-'16)</h4>
 <ul>
   <li>Proficiency holder in Badminton</li>
   <li>Respresentative of winning cricket team in Govind Bhawan Sports Fest 2016.</li>
 </ul>
-
-<h4>
-<a id="national-cadet-corps-ncc-iit-roorkee-12-13" class="anchor" href="#national-cadet-corps-ncc-iit-roorkee-12-13" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>National Cadet Corps (NCC) IIT Roorkee ('12-'13)</h4>
-
+<h4>National Cadet Corps (NCC) IIT Roorkee ('12-'13)</h4>
 <ul>
-  <li>3UK CTR NCC IIT ROORKEE 'B' certificate holder with outstanding performance and A+
+  <li>3UKCTR NCC IIT ROORKEE 'B' certificate holder with outstanding performance and A+
 Grade.</li>
 </ul>
-
-<h3>
-<a id="location" class="anchor" href="#location" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Location</h3>
-
+<h3 class="page-header">Location</h3>
 <ul>
   <li>Based in Bangalore and Hyderabad.</li>
   <li>Willing to move to any Remote place.</li>
 </ul>
-
-<p>
-</p>
+</section>
 </div>
 <br>
-
-<p id="note"><strong>Note: </strong>All the information provided above is true to the best of my knowledge</p>
-
-<p> </p>
-
-<div>
-  <div>
-<p>This Website is made based on content read from <a href="http://www.w3schools.com">w3schools</a> alone.</p>
-  <p>No external templates or examples are used to create this website.</p>
-  </div>
-  <div></div>
-  <div>
-     <p> <a href="mailto:sarathchiitr@gmail.com">sarathchiitr@gmail.com</a></p> 
-     <p> 8265993626</p>
-     <p><a href="https://angel.co/siva-sarath">AngelList</a></p>
+<p class="container" id="note"><strong>Note: </strong>All the information provided above is true to the best of my knowledge</p>
+<footer class="container-fluid text-center">
+<div class="row">
+  <div class="col-sm-6"><p>This Website is made based on content read from <a href="http://www.w3schools.com">w3schools</a> alone.</p>
+  <p>No external templates or examples are used to create this website.</p>     </div>
+  <div class="col-sm-2"></div>
+  <div class="col-sm-4">
+     <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:sarathchiitr@gmail.com">sarathchiitr@gmail.com</a></p> 
+     <p><span class="glyphicon glyphicon-earphone"></span> 8265993626</p>
+     <p><a href=https://angel.co/siva-sarath>AngelList</p>
      <p><a href="https://github.com/Siva-Sarath">Github Profile</a></p>
   </div>
 </div>
-
-<p>
-
-</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+</footer>
+</body>
 </html>
